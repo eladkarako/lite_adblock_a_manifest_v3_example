@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* ╔════════════════════════════════════════════════════════════════════╗
+   ║ at_document_start : CSS                                            ║
+   ╟────────────────────────────────────────────────────────────────────╢
+   ║ an example for a specific set of rules (ha!)                       ║
+   ║ to hide some containers (do edit those..!)                         ║
+   ╚════════════════════════════════════════════════════════════════════╝
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+
+ [class*="a-rude-ad"]
+,a[href*="bad-site.com/malware"]
+,img[src*="bad-pics.com/harsh-ads"]
+,amp-img[src*="bad-pics.com/harsh-ads"]
+,iframe[id*="bad-site.com/ad-iframe"]
+,a-custom-container-just-for-bad-ads
+{
+  display : none !important;
+  width   : 0px  !important;
+  height  : 0px  !important;
+}
+
