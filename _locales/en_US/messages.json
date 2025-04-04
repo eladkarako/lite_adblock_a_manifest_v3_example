@@ -1,0 +1,4 @@
+{ "name_shrt":    {"message":   "lite_adblock"   }
+, "name_long":    {"message":   "lite_adblock"   }
+, "name_desc":    {"message":   "☞︎ a very lite ad-block web-extension "template", with both hiding rule, as well as a json ruleset for blocking, this is a manifest v3 example." }
+}
