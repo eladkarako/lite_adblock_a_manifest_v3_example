@@ -1,0 +1,47 @@
+{
+  "manifest_version"          : 3
+, "minimum_chrome_version"    : "104.0"
+
+, "default_locale"            : "en_US"
+, "name"                      : "__MSG_name_long__"
+, "short_name"                : "__MSG_name_shrt__"
+, "description"               : "__MSG_name_desc__"
+
+, "version"                   : "1.0.0.1"
+, "homepage_url"              : "https://example.com"
+, "author"                    : "First Name"
+
+
+, "host_permissions"          : [ "<all_urls>"
+                                ]
+
+, "content_scripts"           : [ {"css"               : [ "resources/at_document_start.css" ]
+                                  ,"matches"           : [ "<all_urls>" ]
+                                  ,"all_frames"        : true
+                                  ,"match_about_blank" : true
+                                  ,"run_at"            : "document_start"
+                                  }
+                                ]
+
+
+, "permissions"               : [ "declarativeNetRequestWithHostAccess"
+                                ]
+
+, "declarative_net_request"   : {
+                                  "rule_resources"  : [ {"id"      : "ruleset_001"
+                                                        ,"enabled" : true
+                                                        ,"path"    : "resources/ruleset_001.json"
+                                                        }
+                                                      ]
+                                }
+
+
+, "web_accessible_resources"  : [ {"resources" : ["resources/*.*"]
+                                  ,"matches"   : ["<all_urls>"]
+                                  }
+                                ]
+
+,"icons"                      : { "128": "resources/icon.png" }
+,"action"                     : {}
+
+}
