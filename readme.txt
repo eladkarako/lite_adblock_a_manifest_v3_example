@@ -36,7 +36,7 @@ there are no releases, you don't need those in here,
 
 
 just download the branch 'zip' using,  
-https://github.com/314dk4r4k0/lite_adblock_a_manifest_v3_example/archive/refs/heads/master.zip  
+https://github.com/eladkarako/lite_adblock_a_manifest_v3_example/archive/refs/heads/master.zip  
 unpack it, and load it as an unpacked web-extension from the 'chrome://extensions/' page  
 (or 'edge://extensions/' page.. etc..), you can probably load it for firefox somehow too.. :|  
 
@@ -46,5 +46,5 @@ unpack it, and load it as an unpacked web-extension from the 'chrome://extension
 this repository was created to help with migration from manifest v2,  
 take a look in here:  
 
-https://gist.github.com/314dk4r4k0/0fe2ca5c668b1e8101e1206f10f0daae#file-re-enable-ublock-origin-and-all-manifest-v2-web-extensions-md  
+https://gist.github.com/eladkarako/cfd3003c048ec61aae4261a6e7693248#file-direct-download-from-opensubtitles-org-tested-as-of-march-2025-md  
 
