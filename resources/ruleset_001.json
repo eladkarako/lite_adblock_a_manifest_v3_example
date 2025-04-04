@@ -1,0 +1,26 @@
+[
+
+  {
+    "id"        : 1
+   ,"priority"  : 1
+   ,"action"    : {"type"                       : "block"
+                  }
+   ,"condition" : {
+                    "regexFilter"               : "(bad-site\\.com|another-bad-site\\.com)"
+                   ,"isUrlFilterCaseSensitive"  : false
+                  }
+  }
+
+, {
+    "id"        : 2
+   ,"priority"  : 1
+   ,"action"    : {"type"                       : "block"
+                  }
+   ,"condition" : {
+                    "regexFilter"               : "(not-a-bad-site\\.com/with-ads|your-favorite-website\\.com/nasty-pic\\.png)"
+                   ,"isUrlFilterCaseSensitive"  : false
+                  }
+  }
+
+]
+
